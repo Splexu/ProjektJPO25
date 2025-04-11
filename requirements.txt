@@ -2,14 +2,14 @@ Wymagania
 ---------
 KONFIGURACJA MINIMALNA:
 
-System operacyjny: TAK
-Procesor: Warto by jakiś był
-Pamięć: 1 MB RAM
-Karta graficzna: Jeśli chcesz widziec GUI
+System operacyjny: Windows 7 64-bit lub nowszy
+Procesor: Warto by jakiś był ale 64-bitowy
+Pamięć: 2 GB RAM
+Karta graficzna: Jeśli chcesz widziec GUI to  musi obsługiać OpenGL 2.1 lub nowsze
 Miejsce na dysku: 1 GB dostępnej przestrzeni
 Karta dźwiękowa: Nie potrzebujesz
-PROGRAMY:
 
+PROGRAMY:
 Qt 6.8.3 (MinGW 64-bit)
 CMake 3.16 lub nowszy
 Kompilator MinGW (np. dostarczony z Qt)
