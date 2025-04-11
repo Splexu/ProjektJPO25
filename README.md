@@ -11,10 +11,10 @@ Projekt w ramach zajęc JPO 2025.
 Wymagania
 -------------
 KONFIGURACJA MINIMALNA:
-- System operacyjny: TAK
-- Procesor: Warto by jakiś był
-- Pamięć: 1 MB RAM
-- Karta graficzna: Jeśli chcesz widziec GUI
+- System operacyjny: Windows 7 64-bit lub nowszy
+- Procesor: Warto by jakiś był ale 64-bitowy
+- Pamięć: 2 GB RAM
+- Karta graficzna: Jeśli chcesz widziec GUI to  musi obsługiać OpenGL 2.1 lub nowsze
 - Miejsce na dysku: 1 GB dostępnej przestrzeni
 - Karta dźwiękowa: Nie potrzebujesz
 
@@ -32,12 +32,11 @@ EXE-ki
 -------------
 Pliki
 -------------
-- main.cpp: Punkt wejścia aplikacji
-- MainWindow.cpp/h: Logika głównego okna
-- AirQualityManager.cpp/h: Zarządzanie danymi z API
-- tests.cpp: Testy jednostkowe
-- AirQualityMonitor.rar: Projekt jako rar
-
+- main.cpp
+- MainWindow.cpp/h - Logika programu i GUI
+- AirQualityManager.cpp/h - Zarządzanie danymi z API
+- tests.cpp - Testy jednostkowe
+- indez.html - dokumentacja (folder html)
 -------------
 Autor
 -------------
