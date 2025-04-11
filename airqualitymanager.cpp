@@ -91,7 +91,7 @@ void AirQualityManager::fetchCoordinates(const QString &address) {
     url.setQuery(query);
 
     QNetworkRequest request(url);
-    request.setHeader(QNetworkRequest::UserAgentHeader, "AirQualityMonitor/1.0"); // Nominatim wymaga User-Agent
+    request.setHeader(QNetworkRequest::UserAgentHeader, "AirQualityMonitor/1.0"); 
 
     QNetworkReply *reply = networkManager->get(request);
     connect(reply, &QNetworkReply::finished, this, [this, reply]() {
